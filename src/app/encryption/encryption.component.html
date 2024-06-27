@@ -1,0 +1,26 @@
+<div class="container">
+    <h1>Encryption and Decryption App</h1>
+  
+    <div class="input-section">
+      <h2>Encrypt Text</h2>
+      <textarea [(ngModel)]="plainText" placeholder="Enter text to encrypt"></textarea>
+      <button (click)="encryptText()">Encrypt</button>
+    </div>
+  
+    <div class="output-section">
+      <h2>Encrypted Text</h2>
+      <textarea readonly>{{ encryptedText }}</textarea>
+    </div>
+  
+    <div class="input-section">
+      <h2>Decrypt Text</h2>
+      <textarea [(ngModel)]="encryptedText" placeholder="Paste encrypted text here"></textarea>
+      <button (click)="decryptText()">Decrypt</button>
+    </div>
+  
+    <div class="output-section">
+      <h2>Decrypted Text</h2>
+      <textarea readonly>{{ decryptedText }}</textarea>
+    </div>
+  </div>
+  

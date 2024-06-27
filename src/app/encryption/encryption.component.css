@@ -1,0 +1,23 @@
+.container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .input-section, .output-section {
+    margin: 20px 0;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  

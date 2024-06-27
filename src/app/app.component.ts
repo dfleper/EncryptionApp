@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { EncryptionComponent } from './encryption/encryption.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  imports: [EncryptionComponent],
+  template: '<app-encryption></app-encryption>',
+  styles: []
 })
 export class AppComponent {
-  title = 'EncryptionApp';
+  title = 'encryption-app';
 }
