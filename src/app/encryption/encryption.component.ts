@@ -4,11 +4,10 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-encryption',
-  standalone: true,
-  imports: [CommonModule, FormsModule],
-  templateUrl: './encryption.component.html',
-  styleUrls: ['./encryption.component.css']
+    selector: 'app-encryption',
+    imports: [CommonModule, FormsModule],
+    templateUrl: './encryption.component.html',
+    styleUrls: ['./encryption.component.css']
 })
 export class EncryptionComponent {
   plainText: string = '';
