@@ -5,7 +5,7 @@ import { EncryptionComponent } from './encryption/encryption.component';
   selector: 'app-root',
   standalone: true,
   imports: [EncryptionComponent],
-  template: '<app-encryption></app-encryption>',
+  templateUrl: './app.component.html',
   styles: []
 })
 export class AppComponent {
