@@ -5,7 +5,7 @@
 
 ### 💻 [EncryptionApp WebSite (Click Here)](https://encrypt-decrypt-dlfeper.netlify.app/)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3. updated 19.2.17
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3. updated 19.2.18
 
 ## Development server
 
